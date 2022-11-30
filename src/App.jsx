@@ -5,10 +5,10 @@ import { Route, Routes } from 'react-router-dom';
 //import './App.css'
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
-import Error from './pages/Error'
+import Error from './pages/Error';
 
 function App() {
-  const [count, setCount] = useState(0);
+  //const [count, setCount] = useState(0);
 
   return (
     <>

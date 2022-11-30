@@ -1,18 +1,19 @@
 import React from 'react';
-import './HomePage.css'
+import './HomePage.css';
 import Search from '../components/Search';
 import plane from '../assets/plane.jpg';
 
 function HomePage() {
   return (
-    //<div style={{backgroundImage: `url(${plane})`}}>
-    <div className='mainDiv'>
-      <div className='divContent'>
-        <h2>
-            Let's get you traveling
-        </h2>
+    
+    <div className="mainDiv">
+      <div className="searchContainer">
+        <h2>Let's get you traveling</h2>
         <Search />
-        </div>
+      </div>
+      <div className="datesContainer">
+        <form></form>
+      </div>
     </div>
   );
 }

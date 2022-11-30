@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className="navigationStyle">
       <div className="sectionNavBar">
-        <img src={logo} alt='logo'/>
+        <img src={logo} alt="logo" />
       </div>
 
       <div className="sectionNavBar">
@@ -22,7 +22,14 @@ function NavBar() {
 
       <div className="sectionNavBar">
         <Link to="/login" className="logInLink">
-            <FaUserCircle id="customerIcon" /> NameCustomer
+          <ul>
+            <li>
+              <FaUserCircle id="customerIcon" />
+            </li>
+            <li>
+              <p>NameCustomer</p>
+            </li>
+          </ul>
         </Link>
       </div>
     </div>

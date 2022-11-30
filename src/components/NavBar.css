@@ -43,3 +43,13 @@ img {
   font-size: 17px;
   color: rgb(148, 145, 145);
 }
+
+.logInLink :hover{
+  color: rgb(108, 24, 145);
+}
+
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 0px 0 5px;
+}
